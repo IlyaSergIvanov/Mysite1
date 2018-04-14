@@ -1,45 +1,73 @@
 <!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Сайт Zoo</title>
-	</head>
-	<body>
-		<h1> Зоопарк </h1>
-		<h2><a href="registration.html">Регистрация</a></h2>
-		<h2> Животные зоопарка </h2>
-		<ul>
-			<li><a href="page-monkey.html">Обезьяны</a></li>
-			<li><a href="page-giraf.html">Жирафы</a></li>
-			<li>Экзотические животные
-				<ul>
-					<li><a href="page-anteater.html">Муравьед</a></li>
-					<li><a href="page-kapibara.html">Капибара</a></li>
-				</ul>
-			</li>
-			
-		</ul>
-
-		<h2> Информация </h2>
-		<p>Льготные билеты в зоопарк для людей: </p>
-		<ol>
-			<li>Школьного возраста</li>
-			<li>Пенсионеры</li>
-		</ol>
-		<p>Цены билетов:</p>
-		<table border="1">
-			<tr>
-				<td>Для граждан РФ</td>
-				<td>400</td>
-			</tr>
-			<tr>
-				<td>Для иностранных граждан</td>
-				<td>1000</td>
-			</tr>
-		</table>
-<!--
-		<p><i>Lorem</i> ipsum <b>dolor</b> sit amet, <u>consectetur adipisicing</u> elit. <br>Reiciendis provident a beatae ad non at rerum, deserunt atque laboriosam quidem, sunt, aliquam nisi odit repellendus animi earum consequuntur maxime.<br> Delectus.</p>
-		<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis provident a beatae ad non at rerum, deserunt atque laboriosam quidem, sunt, aliquam nisi odit repellendus animi earum consequuntur maxime. Delectus.<blockquote>
-!-->			
-	</body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Курсовой проект</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<section class="first">
+				<div class="logo">
+					<img scr="images/black_logo.png" alt="logo">
+				</div>
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+		</section>	
+	
+		<section>
+			<div class="container">
+					<div class="main-block">
+						<h4>Design is a hobby</h4>
+						<h1>My Coursework</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, aut.</p>
+						<button>view details</button>
+					</div>
+			</div>
+		</section>
+	</header>
+	<main>
+		<section>
+			<div class="contact-us">
+				<h2>Contact Us</h2>
+			</div>
+			<div class="map">
+                <img src="Images/map.jpg" alt="A map ">
+            </div>
+        </section>   
+        <section>   
+            <div class="contact-form">
+            	<form action="" method="post">
+					 <div class="name-input">
+                        <input name="name" type="text" id="name" placeholder="Your name..." required="">                   
+                     </div>
+                     <div class="email-input">
+                        <input name="email" type="email" id="email" placeholder="Your email..." required="">
+                     </div>
+                     <div class="message-input">
+                       <textarea name="message" rows="6" id="message" placeholder="Your message..." required=""></textarea>
+                     </div>
+                     <div class="contact-button">
+                     <button type="submit" class="cta-button">Send Message</button>
+                     </div>
+				</form>	
+            </div>
+        </section>	
+		
+	</main>	
+	<footer>
+		<section>
+			<div class="copyright-text">
+				<p>Copyright &copy; 2018 I.Ivanov - Design: Tooplate </p>
+			</div>
+		<section>
+	</footer>
+</body>
 </html>
