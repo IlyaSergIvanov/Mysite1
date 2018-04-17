@@ -230,21 +230,22 @@ text-transform: uppercase;
 }	
 .pmenu {
 	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 .pmenu ul li {
 	display: inline;
-	text-transform: uppercase;
 	padding: 10px;
 	text-decoration-line: none; 
 	list-style: none;
-	font-size: 10px;
+	font-size: 15px;
 	
 }
 .pmenu a {
 	text-decoration-line: none; 
 	list-style: none;
-	text-transform: uppercase;
-	color: black;
+	color: #4e4747;
+	text-transform: unset;
 }
 /*our blog post*/
 .blog {
@@ -261,6 +262,14 @@ text-transform: uppercase;
 	height: 550px;
 	background: #f2f2f7;
 	background-size: cover;
+}
+.bsection-headler {
+	padding-top: 100px;
+	padding-left: auto;
+	padding-right: auto;
+	margin: auto;
+	text-transform: uppercase;
+	text-align: center;
 }
 /*contact us*/
 .contact-us {
